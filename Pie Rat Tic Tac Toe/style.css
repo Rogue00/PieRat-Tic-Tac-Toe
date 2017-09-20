@@ -1,0 +1,33 @@
+body {
+	font-family: 'IM Fell English SC', serif;
+	background-image: url("http://i63.tinypic.com/2ike0xy.jpg");
+	opacity: 50%;
+}
+	
+
+
+td {
+border: 2px solid #333;
+height: 150px;
+width: 150px;
+text-align: center;
+vertical-align: middle;
+font-family: "Comic Sans MS", cursive;
+font-size: 70px;
+cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+left: 50%;
+margin-left: -155px;
+top: 50px;	
+}
+
+
+
+.endgame {
+	display: none;
+	
+}
