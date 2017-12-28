@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pie Rat Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <audio id="sound1">
+ 
+  <source src="http://soundimage.org/wp-content/uploads/2016/08/Tower-Defense_Looping.mp3" type="audio/mp3">
+ 
+</audio>
+
+<audio id="sound2">
+  <source src="http://rogues00.esy.es/Rogues%20Website/audio/battleNoise1.mp3" type="audio/mp3"> 
+</audio>
+
+<audio id="sound3">
+ <source src="http://rogues00.esy.es/Rogues%20Website/audio/cannonFireAndReturn.mp3" type="audio/mp3"> 
+</audio>
+
+<body onload = "startGame();">
+
+  <div class= "container-fluid" id= "pierats">
+<h1 align = "center">Pirates Tic Tac Toe</h1>
+  
+  <div class="row">
+  <div class="col-sm-4">
+    <button id= "choose1" onclick= "choose1()">Merchant Vessel</button>
+  </div>
+  <div class="col-sm-4">
+    <h2 align = "center">Buckle Up Me Harty's For A Hard Fight!</h2>
+  </div>
+  <div class="col-sm-4">
+    <button id= "choose2" onclick= "choose2()">Pirates</button>
+  </div>
+</div>
+  
+  <div id = "message" align = "center"></div>
+  
+  
+
+ <h1 id="attack"></h1>
+    <button id= "reset" onclick= "reset()">reset</button>
+  
+
+ <br><br>
+<table border = "1" align = "center">
+  <tr>
+     
+    <td id = "0" class = "square" onclick = "nextMove(this)"></td>
+    <td id = "1" class = "square" onclick = "nextMove(this)"></td>
+    <td id = "2" class = "square" onclick = "nextMove(this)"></td>
+    
+  </tr>
+  
+  <tr>
+    <td id = "3" class = "square" onclick = "nextMove(this)"></td>
+    <td id = "4" class = "square" onclick = "nextMove(this)"></td>
+    <td id = "5" class = "square" onclick = "nextMove(this)"></td>
+    
+  </tr>
+  
+  <tr>
+    <td id = "6" class = "square" onclick = "nextMove(this)"></td>
+    <td id = "7" class = "square" onclick = "nextMove(this)"></td>
+    <td id = "8" class = "square" onclick = "nextMove(this)"></td>
+    
+  </tr>
+</table>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+#attack {
+  width: 1450px;
+  height: 900px;
+  z-index +10;
+  background-color: red;
+  opacity: 0.5;
+position: absolute;
+  
+  
+}
+
+
+.square {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'IM Fell English SC', serif;
+  border: solid 10px black;
+ 
+}
+
+
+button {
+	height: 65px;
+	width: 150px;
+	text-align: center;
+	margin-left:45%;
+	background-color: #e6e8ed;
+  color: green;
+	font-size: 20px;
+  font-weight: bold;
+  border-radius: 35%;
+   border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+
+
+
+
+
+
+
+#message {
+  color: green;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'IM Fell English SC', serif;
+  
+}
+
+table {
+ 
+ 
+	border: solid 10px black;
+}
+
+body {
+  
+  
+	font-family: 'IM Fell English SC', serif;
+	background-image: url("http://i63.tinypic.com/2ike0xy.jpg");
+	
+   
+}
