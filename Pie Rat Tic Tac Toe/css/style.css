@@ -1,3 +1,15 @@
+#attack {
+  width: 1450px;
+  height: 900px;
+  z-index +10;
+  background-color: red;
+  opacity: 0.5;
+position: absolute;
+  
+  
+}
+
+
 .square {
   width: 150px;
   height: 150px;
@@ -7,35 +19,30 @@
   font-family: 'IM Fell English SC', serif;
   border: solid 10px black;
  
- /* background-image: url("http://i65.tinypic.com/2rq2jgh.jpg");
-  /*background-image: url("http://i65.tinypic.com/6hnon6.jpg");*/
-  
- 
 }
 
 
 button {
-	height: 50px;
+	height: 65px;
 	width: 150px;
 	text-align: center;
 	margin-left:45%;
-	background-color: light gray;
+	background-color: #e6e8ed;
+  color: green;
 	font-size: 20px;
-}
-
-.taken  {
-	background-image: url("http://i65.tinypic.com/2rq2jgh.jpg");
-	
-}
-
-.s1 {
-	background-image: url("http://i65.tinypic.com/6hnon6.jpg");
+  font-weight: bold;
+  border-radius: 35%;
+   border-style: solid;
+    border-color: black;
+    border-width: 3px;
 }
 
 
-input {
-  margin-left: 47%;
-}
+
+
+
+
+
 
 #message {
   color: green;
@@ -46,13 +53,16 @@ input {
 }
 
 table {
-
+ 
+ 
 	border: solid 10px black;
 }
 
 body {
+  
+  
 	font-family: 'IM Fell English SC', serif;
 	background-image: url("http://i63.tinypic.com/2ike0xy.jpg");
-	opacity: 50%;
+	
    
 }
